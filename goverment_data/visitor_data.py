@@ -49,7 +49,7 @@ def getTourPointData(item, yyyymm, jsonResult):
     ForNum = 0 if 'csForCnt' not in item.keys() else item['csForCnt']
     NatNum = 0 if 'csNatCnt' not in item.keys() else item['csNatCnt']
 
-    jsonResult.append({'yyyymmm':yyyymm, 'addrCd':addrCd,
+    jsonResult.append({'yyyymm':yyyymm, 'addrCd':addrCd,
                        'gungu':gungu, 'sido':sido, 'resNm':resNm,
                        'rnum':rnum, 'ForNum':ForNum, 'NatNum':NatNum})
 
